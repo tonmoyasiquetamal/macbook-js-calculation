@@ -40,28 +40,28 @@
                     </button>
 
                     <!-- Storage Selective Area -->
-                    <h6 id="ssd-256gb" class="text-gray-600 text-2xl font-medium mt-10">Storage</h6>
+                    <h6 id="storage-256gb" class="text-gray-600 text-2xl font-medium mt-10">Storage</h6>
                     <button
                         class="my-2 px-8 py-2 bg-white text-gray-600 border border-gray-600 text-sm font-medium rounded">256GB
                         SSD storage</button>
-                    <button id="ssd-512gb"
+                    <button id="storage-512gb"
                         class="my-2 px-8 py-2 bg-white text-gray-600 border border-gray-600 text-sm font-medium rounded">512GB
                         SSD storage
                     </button>
-                    <button id="ssd-1tb"
+                    <button id="storage-1tb"
                         class="my-2 px-8 py-2 bg-white text-gray-600 border border-gray-600 text-sm font-medium rounded">1TB
                         SSD storage
                     </button>
 
                     <!-- Delivery Area -->
                     <h6 class="text-gray-600 text-2xl font-medium mt-10">Choose your delivery option</h6>
-                    <button id="prime-delivery"
+                    <button id="free-delivery"
                         class="my-2 px-8 py-2 bg-white text-gray-600 border border-gray-600 text-sm font-medium rounded">Friday,
                         Aug 25 FREE Prime Delivery
                     </button>
                     <button id="charge-delivery"
                         class="my-2 px-8 py-2 bg-white text-gray-600 border border-gray-600 text-sm font-medium rounded">Friday,
-                        Aug 21 Delivery charge $20
+                        Aug 21 Delivery Charge $20
                     </button>
 
                     <!-- Pricing Table Area Start -->
@@ -79,7 +79,7 @@
                                 Extra Memory Cost
                             </div>
                             <div class="lg:px-4 m-2 lg:text-lg font-medium text-center text-gray-600">
-                                $ <span id="memory-cost">0</span>
+                                $ <span id="ram-cost">0</span>
                             </div>
                         </div>
                         <div class="flex justify-between pt-1 border-b">
@@ -87,7 +87,7 @@
                                 Extra Storage Cost
                             </div>
                             <div class="lg:px-4 m-2 lg:text-lg font-medium text-center text-gray-900">
-                                $ <span id="storage-cost">0</span>
+                                $ <span id="rom-cost">0</span>
                             </div>
                         </div>
                         <div class="flex justify-between pt-1 border-b-2 border-gray-600">
@@ -113,14 +113,15 @@
                         <p class="mb-4 italic">If you have a coupon code, please enter it in the box below</p>
                         <div class="justify-center md:flex">
                             <div class="flex items-center w-full h-13 pl-3 bg-white bg-gray-100 border rounded-full">
-                                <input type="coupon" name="code" id="promo-code-input" placeholder="Apply coupon"
+                                <!-- Promo Code Input Field with Applicable -->
+                                <input type="coupon" name="code" id="promo-input" placeholder="Apply coupon"
                                     class="w-full bg-gray-100 outline-none appearance-none focus:outline-none active:outline-none">
 
                                 <!-- Promo-Code Button with Applicable -->
-                                <button id="promo-code-btn" type="submit"
+                                <button id="promo-code" type="submit"
                                     class="text-sm flex items-center px-3 py-1 my-0.5 mx-0.5 text-white bg-pink-600 rounded-full outline-none md:px-4  focus:outline-none active:outline-none"><i
                                         class="fas fa-gifts m-1"></i>
-                                    <span class="font-medium">Apply</span>
+                                    <span class="font-semibold">Apply</span>
                                 </button>
                             </div>
                         </div>
@@ -134,7 +135,7 @@
                         Total Price
                     </div>
                     <div class="lg:px-4 mt-2 lg:text-lg text-center text-black font-bold">
-                        $ <span id="discount-price">1299</span>
+                        $ <span id="discount-offer">1299</span>
                     </div>
                 </div>
             </div>
