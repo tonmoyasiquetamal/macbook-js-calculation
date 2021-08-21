@@ -35,7 +35,7 @@ document.getElementById("ram-16gb").addEventListener("click", function () {
 /* Storage Cost Link Up */
 document.getElementById("storage-256gb").addEventListener("click", function () {
     document.getElementById("rom-cost").innerText = 0;
-    priceCounting(0, 0, 0, 0, 0, 100);
+    priceCounting(0, 0, 0, 0, 0, 0, 100);
 
 });
 document.getElementById("storage-512gb").addEventListener("click", function () {
