@@ -46,18 +46,20 @@ deliveryCharge.addEventListener('click', function () {
     updateTotal()
 })
 
-// document.getElementById('promo-code-btn').addEventListener('click', function () {
-//     const promoCodeInput = document.getElementById('promo-code-input')
-//     const discountPriceText = document.getElementById('discount-price')
-//     let discountPrice = Number(discountPriceText.innerText)
-//     if (promoCodeInput.value == 'stevekaku') {
-//         discountPriceText = updateTotal()
-//     }
-//     else {
-//         alert('u have enterd wrong promo code')
-//     }
-//     promoCodeInput.value = ''
-// })
+document.getElementById('promo-btn').addEventListener('click', function () {
+    const promoCodeInput = document.getElementById('promo-input')
+    const discountPriceText = document.getElementById('discount-price')
+    let discountPrice = Number(discountPriceText.innerText)
+    if (promoCodeInput.value == 'stevekaku') {
+        discountPriceText = updateTotal()
+        
+    }
+    else {
+        alert('Please Enter Valid Promo For Wanting Discount')
+    }
+    promoCodeInput.value = ''
+})
+
 function updateTotal() {
     const bestPrice = Number(macBookPrice.innerText);
     const extraMemoryCost = Number(memoryPrice.innerText);
