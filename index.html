@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,12 +8,13 @@
     <title>MacBook-Purchase</title>
     <!-- Tailwind Min-CSS Style Sheet File here -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<!-- Font Awsome CDN File Here -->
-<script src="https://kit.fontawesome.com/94a81e8d53.js" crossorigin="anonymous"></script>
-<!-- Mac-Book Images Here  -->
-    <link rel="shortcut icon" href="images/mac.png" type="image/x-icon">
+    <!-- Font Awsome CDN File Here -->
+    <script src="https://kit.fontawesome.com/94a81e8d53.js" crossorigin="anonymous"></script>
+    <!-- Fav-Icon Images Here  -->
+    <link rel="shortcut icon" href="images/fav-icon.jpg" type="image/x-icon">
 </head>
 <!-- The Body Start -->
+
 <body>
     <!-- Section are starting here -->
     <section class="text-gray-700 body-font overflow-hidden bg-white">
@@ -116,9 +118,11 @@
                             <div class="flex items-center w-full h-13 pl-3 bg-white bg-gray-100 border rounded-full">
                                 <input type="coupon" name="code" id="promo-code-input" placeholder="Apply coupon"
                                     class="w-full bg-gray-100 outline-none appearance-none focus:outline-none active:outline-none">
+
+                                <!-- Promo-Code Button with Applicable -->
                                 <button id="promo-code-btn" type="submit"
-                                    class="text-sm flex items-center px-3 py-1 my-0.5 mx-0.5 text-white bg-gray-800 rounded-full outline-none md:px-4 hover:bg-gray-700 focus:outline-none active:outline-none"><i
-                                        class="fas fa-gift m-2"></i>
+                                    class="text-sm flex items-center px-3 py-1 my-0.5 mx-0.5 text-white bg-pink-600 rounded-full outline-none md:px-4  focus:outline-none active:outline-none"><i
+                                        class="fas fa-gifts m-1"></i>
                                     <span class="font-medium">Apply</span>
                                 </button>
                             </div>
@@ -128,12 +132,11 @@
             </div>
             <div>
                 <!-- Annual Price Area -->
-                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 <div class="flex justify-center pt-1">
-                    <div class="lg:px-4 mt-2 text-lg lg:text-xl font-medium text-center text-gray-600">
+                    <div class="lg:px-4 mt-2 text-lg lg:text-xl text-center text-black font-bold">
                         Total Price
                     </div>
-                    <div class="lg:px-4 mt-2 lg:text-lg font-medium text-center text-gray-600">
+                    <div class="lg:px-4 mt-2 lg:text-lg text-center text-black font-bold">
                         $ <span id="discount-price">1299</span>
                     </div>
                 </div>
@@ -147,4 +150,5 @@
 
 </body>
 <!-- The Body End -->
+
 </html>
